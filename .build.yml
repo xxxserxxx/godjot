@@ -14,8 +14,10 @@ tasks:
       go get .
 
   - test: |
+      cd ${PROJ}
       go test .
       go test ./...
 
   - build: |
+      cd ${PROJ}
       go build -v .
