@@ -1,4 +1,4 @@
-package: archlinux
+image: archlinux
 packages:
   - go>=1.23
   - markdownlint-cli

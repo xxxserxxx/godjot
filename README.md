@@ -3,8 +3,7 @@
 [![Go Report Card][go-report-image]][go-report-url]
 ![Go Version][go-build-badge]
 
-[go-report-image]: https://goreportcard.com/badge/git.sr.ht/~ser/godjot
-[go-report-url]: https://goreportcard.com/report/git.sr.ht/~ser/godjot
+[![Go Report Card](https://goreportcard.com/badge/git.sr.ht/~ser/godjot)](https://goreportcard.com/report/git.sr.ht/~ser/godjot)
 [![Build status](https://builds.sr.ht/~ser/godjot/.build.yml.svg)](https://builds.sr.ht/~ser/godjot/.build.yml?)
 
 [Djot](https://github.com/jgm/djot) markup language parser implemented in Go language
