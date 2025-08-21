@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"strings"
 
-	"github.com/sivukhin/godjot/v2/tokenizer"
+	"git.sr.ht/~ser/godjot/v2/tokenizer"
 )
 
 func BuildInlineDjotTokens(

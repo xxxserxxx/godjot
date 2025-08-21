@@ -1,0 +1,21 @@
+package: archlinux
+packages:
+  - go>=1.23
+  - markdownlint-cli
+  - ripgrep
+  - zsh
+sources:
+  - https://git.sr.ht/~ser/godjot
+environment:
+  PROJ: godjot
+tasks:
+  - setup: |
+      cd ${PROJ}
+      go get .
+
+  - test: |
+      go test .
+      go test ./...
+
+  - build: |
+      go build -v .
